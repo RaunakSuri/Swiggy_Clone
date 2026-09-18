@@ -2,11 +2,11 @@ import { GroceryData } from "../assets/GroceryData";
 
 function GroceryOptions() {
   return (
-    <div className="max-w-[80%] mx-auto overflow-x-auto mt-12">
+    <div className="max-w-[80%] mx-auto overflow-x-auto mt-12  [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
       <h1 className="font-bold text-2xl ml-4 mt-4">
         Shop groceries on Instamart
       </h1>
-      <div className="flex overflow-x-auto gap-8 mt-4">
+      <div className="flex overflow-x-auto gap-8 mt-4  [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         {GroceryData.map((food) => (
           <div key={food.id} className="shrink-0">
             <a

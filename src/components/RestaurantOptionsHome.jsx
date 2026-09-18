@@ -2,12 +2,12 @@ import { RestaurantDataHome } from "../assets/RestaurantDataHome";
 
 function RestaurantOptionsHome() {
   return (
-    <div className="max-w-[80%] mx-auto overflow-x-auto mt-12">
+    <div className="max-w-[80%] mx-auto overflow-x-auto mt-12 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
       <h1 className="font-bold text-2xl ml-4 mt-4">
         Discover best restaurants on Dineout
       </h1>
 
-      <div className="flex overflow-x-auto gap-8 mt-4">
+      <div className="flex overflow-x-auto gap-8 mt-4 mb-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         {RestaurantDataHome.map((rest) => (
           <div
             key={rest.info.id}

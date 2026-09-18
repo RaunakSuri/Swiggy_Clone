@@ -4,6 +4,7 @@ import Home from "./pages/Home.jsx";
 import Header from "./components/Header.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import RestaurantMenu from "./pages/RestaurantMenu.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/restaurants" element={<RestaurantPage />}></Route>
           <Route path="/restaurant/:id" element={<RestaurantMenu />}></Route>
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </>
   );
