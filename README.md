@@ -1,17 +1,47 @@
-# Swiggy Clone 🍔🍕🚀
+# Swiggy Clone 🍔
 
-A fully responsive, modern web application that replicates the core UI and functionality of Swiggy, India's leading food delivery platform. Built from scratch to demonstrate advanced front-end development skills!
+A Swiggy-inspired food delivery web application built with React and Vite.  
+This project was created to practice and demonstrate real-world React concepts such as routing, state management, reusable components, filtering, search, and cart functionality.
 
-## ✨ Features
-- **Modern UI/UX**: Designed to look and feel exactly like the premium Swiggy application.
-- **Dynamic Routing**: Multi-page application with fluid navigation (Home, Restaurant Menu, Cart) using React Router.
-- **Scroll Restoration**: Navigating between pages always scrolls nicely to the top for a native app feel.
-- **Reusable Components**: Clean architecture with modular UI components (Headers, Food Options, Banners, etc.).
-- **Vite Powered**: Lightning-fast hot module replacement and optimized production builds.
+## 🚀 Features
+
+- 🏠 **Home & Restaurant Listing**  
+  Browse food categories and explore available restaurants.
+
+- 🍽️ **Restaurant Menu**  
+  View restaurant details and browse dishes available on the menu.
+
+- 🔍 **Search Dishes**  
+  Search for dishes directly from the restaurant menu.
+
+- 🥗 **Veg / Non-Veg Filters**  
+  Filter menu items based on vegetarian and non-vegetarian preferences.
+
+- 🛒 **Shopping Cart**  
+  Add items to the cart and manage quantities using increment/decrement controls.
+
+- 💰 **Dynamic Bill Calculation**  
+  Automatically calculates item total, delivery charges, taxes, and final payable amount.
+
+- 🎉 **Checkout Flow**  
+  Place an order and clear the cart after checkout with a simple order confirmation screen.
+
+- 🧭 **Client-Side Routing**  
+  Navigate between home, restaurant menus, and cart pages using React Router.
+
+- 🔝 **Scroll Restoration**  
+  Automatically scroll to the top when navigating between pages.
+
+- 🧩 **Reusable Components**  
+  Built using reusable components for headers, menus, restaurant cards, and other UI elements.
 
 ## 🛠️ Tech Stack
-- **Frontend Framework**: React.js 
-- **Tooling**: Vite
-- **Routing**: React Router DOM
-- **Styling**: Modern CSS / CSS Modules
-- **Icons & Assets**: Scalable SVG integration and external CDN optimization.
+
+- **React.js** – UI development
+- **Vite** – Development environment and build tool
+- **React Router DOM** – Client-side routing
+- **Redux Toolkit** – Global cart state management
+- **React Redux** – Connecting Redux with React
+- **Tailwind CSS** – Styling and responsive layouts
+- **Lucide React** – Icons
+- **JavaScript (ES6+)** – Application logic
