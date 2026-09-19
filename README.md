@@ -1,16 +1,17 @@
-# React + Vite
+# Swiggy Clone 🍔🍕🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive, modern web application that replicates the core UI and functionality of Swiggy, India's leading food delivery platform. Built from scratch to demonstrate advanced front-end development skills!
 
-Currently, two official plugins are available:
+## ✨ Features
+- **Modern UI/UX**: Designed to look and feel exactly like the premium Swiggy application.
+- **Dynamic Routing**: Multi-page application with fluid navigation (Home, Restaurant Menu, Cart) using React Router.
+- **Scroll Restoration**: Navigating between pages always scrolls nicely to the top for a native app feel.
+- **Reusable Components**: Clean architecture with modular UI components (Headers, Food Options, Banners, etc.).
+- **Vite Powered**: Lightning-fast hot module replacement and optimized production builds.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **Frontend Framework**: React.js 
+- **Tooling**: Vite
+- **Routing**: React Router DOM
+- **Styling**: Modern CSS / CSS Modules
+- **Icons & Assets**: Scalable SVG integration and external CDN optimization.

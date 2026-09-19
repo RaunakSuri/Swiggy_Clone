@@ -1,10 +1,12 @@
 import { imageGridCards } from "../assets/FoodData";
 import { RestaurantPageData } from "../assets/RestaurantPageData";
 import { Link } from "react-router-dom";
+import Header from "../components/Header";
 
 function RestaurantPage() {
   return (
     <>
+      <Header />
       {/* Food Options */}
       <div className="max-w-[80%] mx-auto overflow-x-auto mt-12 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         <h1 className="font-bold text-5xl ml-4 mt-4 text-center mb-12">
